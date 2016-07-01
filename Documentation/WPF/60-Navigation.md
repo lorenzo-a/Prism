@@ -130,7 +130,7 @@ The region adapter manages a list of views within the associated region. One or 
  
 Previous versions of Prism allowed views to be displayed in a region in two ways. The first, called *view injection*, allows views to be programmatically displayed in a region. This approach is useful for dynamic content, where the view to be displayed in the region changes frequently, according to the application's presentation logic.
 
-View injection is supported through the **Add** method on the **Region** class. The follow code example shows how you can obtain a reference to a **Region** object via the **RegionManager** class and programmatically add a view to it. In this example, the view is created using a dependency injection container.
+View injection is supported through the **Add** method on the **Region** class. The following code example shows how you can obtain a reference to a **Region** object via the **RegionManager** class and programmatically add a view to it. In this example, the view is created using a dependency injection container.
 
     IRegionManager regionManager = ...;
     IRegion mainRegion = regionManager.Regions["MainRegion"];
